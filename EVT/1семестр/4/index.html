@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Анкетка</title>
+</head>
+<body>
+  <form action="good.html" method="post">
+    <fieldset>
+      <legend>Личная информация</legend>
+
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Дополнительная информация</legend>
+
+      <label for="gender">Пол:</label>
+      <input type="radio" id="gender-male" name="gender" value="male">
+      <label for="gender-male">Мужской</label>
+
+      <input type="radio" id="gender-female" name="gender" value="female">
+      <label for="gender-female">Женский</label>
+      
+      <input type="radio" id="gender-another" name="gender" value="another">
+      <label for="gender-another">Другой</label>
+
+      <br>
+
+      <label for="interests">Интересы:</label>
+      <input type="checkbox" id="interests-sport" name="interests[]" value="sport">
+      <label for="interests-sport">Спорт</label>
+
+      <input type="checkbox" id="interests-music" name="interests[]" value="music">
+      <label for="interests-music">Музыка</label>
+
+      <input type="checkbox" id="interests-horsing" name="interests[]" value="hording">
+      <label for="interests-horsing">Хобби-хорсинг</label>
+
+      <input type="checkbox" id="interests-chess" name="interests[]" value="chess">
+      <label for="interests-chess">Шахматы</label>
+
+      <input type="checkbox" id="interests-programmer" name="interests[]" value="programmer">
+      <label for="interests-programmer">Изучение С++</label>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Загрузка файла, который раскрывает вас как личность</legend>
+
+      <input type="file" id="file" name="file">
+    </fieldset>
+
+    <fieldset>
+      <legend>Пароль</legend>
+
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+    </fieldset>
+
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Сбросить">
+  </form>
+</body>
+</html>
