@@ -1,0 +1,141 @@
+html {
+    font-family: sans-serif;
+  }
+
+body {
+  margin: 0;
+}
+
+header {
+  background: rgb(52, 206, 142);
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+button {
+  margin: 50px;
+  font-size: 20px;
+  background-color: red;
+  position: relative;
+  animation: vibrating 1s infinite;
+}
+
+button:hover {
+  background-color: green;
+  animation-play-state: paused;
+}
+
+@keyframes vibrating {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+a {
+  font-size: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.link:hover {
+  color: green;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background-color: green;
+  transition: width 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.link:hover::before {
+  width: 100%;
+}
+
+.ball{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: blueviolet;
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+  animation: fall 4s infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-400px) scaleY(1);
+    animation-timing-function: ease-in;
+  }
+  15% {
+    transform: translateY(0) scaleY(0.8);
+    background-color: blue;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    transform: translateY(-200px) scaleY(1);
+    background-color: blueviolet;
+    animation-timing-function: ease-in;
+  }
+  40% {
+    transform: translateY(0) scaleY(0.9);
+    background-color: pink;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-100px) scaleY(1);
+    background-color: blueviolet;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(0) scaleY(0.95);
+    background-color: red;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: translateY(-50px) scaleY(1);
+    background-color: blueviolet;
+    animation-timing-function: ease-in;
+  }
+  85% {
+    transform: translateY(0) scaleY(1);
+    background-color: rgb(1, 80, 8);
+    animation-timing-function: ease-out;
+  }
+  90% {
+    transform: translateY(-25px) scaleY(1);
+    background-color: blueviolet;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+    background-color: rgb(148, 4, 42);
+    animation-timing-function: ease-out;
+  }
+}
+
+
+
