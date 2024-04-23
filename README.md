@@ -11,6 +11,7 @@
 
 ### 2. Контактная информация
 Email: masha.padunovich@gmail.com
+
 Telegram: @Maaaaaappp
 
 ---
