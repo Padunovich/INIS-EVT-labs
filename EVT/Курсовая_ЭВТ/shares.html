@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shares</title>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/shares.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_menu">
+          <div class="header_logo">
+            <a href="index.html">
+              <img src="img/logo.png" width="25" height="30" alt="">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html#auto">Our Cars</a></li>
+              <li><a href="index.html#tariffs">Tariffs</a></li>
+              <li><a href="shares.html">Shares</a></li>
+              <li><a href="rules.html">Rules</a></li>
+            </ul>
+          </nav>
+          <div class="theme">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="checkbox"
+              onchange="handleChange(this.checked)"
+            >
+            <label for="checkbox" class="checkbox-label"></label>
+            <span>Dark Theme</span>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <input id="menu_toggle" type="checkbox">
+          <label class="menu_btn" for="menu_toggle">
+            <span></span>
+          </label>
+          <div class="menu_box">
+            <a href="index.html" class="header_logotype">
+              <img
+                class="header_logo-img"
+                src="img/logo2.png"
+                alt=""
+              >
+            </a>
+            <ul class="menu_items">
+              <li><a class="menu_item" href="index.html#auto">Our Cars</a></li>
+              <li><a class="menu_item" href="index.html#tariffs">Tariffs</a></li>
+              <li><a class="menu_item" href="shares.html">Shares</a></li>
+              <li><a class="menu_item" href="rules.html">Rules</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1 class="shares_title">Partner stock</h1>
+      <div class="pros">
+        <div class="useful">
+          <img src="img/goldcard.jpeg" alt="">
+          <span class="line"></span>
+          <p class="description">
+            Funded card<br>
+            «Premium Card»
+          </p>
+        </div>
+        <div class="useful">
+          <img src="img/gift.png" alt="">
+          <span class="line"></span>
+          <p class="description">
+            Drive 100 km in a month and win Tesla Model X
+          </p>
+        </div>
+        <div class="useful">
+          <img src="img/mastercard.jpeg" alt="">
+          <span class="line"></span>
+          <p class="description">
+            7% discount when paying with cards MasterCard
+          </p>
+        </div>
+      </div>
+      <div class="pros" id="pros2">
+        <div class="useful">
+          <img src="img/mak.png" alt="">
+          <span class="line"></span>
+          <p class="description">3% off at McDrive<br>on our car</p>
+        </div>
+        <div class="useful">
+          <img src="img/dominos.png" alt="">
+          <span class="line"></span>
+          <p class="description">
+            Take a car for a day and<br>get pizza for free
+          </p>
+        </div>
+        <div class="useful">
+          <img src="img/wash.jpg" alt="">
+          <span class="line"></span>
+          <p class="description">Discount on washing 10%</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer_row">
+          <div class="footer_col one">
+            <a href="rules.html">Seniority</a>
+            <a href="rules.html#rule2">Car transmission</a>
+            <a href="rules.html#rule3">Charging</a>
+            <a href="rules.html#rule4">Insurance</a>
+            <a href="rules.html#rule5">Car inspection</a>
+            <a href="rules.html#rule6">SDA and fines</a>
+          </div>
+          <div class="footer_col two">
+            <address>
+              Customer support 24 hours:<br>
+              <a href="tel:+375291234567">+375 (29) 123-45-67</a><br>
+              <a href="tel:+375331234567">+375 (33) 123-45-67</a><br>
+              <a href="mailto:EcoMove@gmail.com">EcoMove@gmail.com</a><br>
+            </address>
+            <address>
+              <br>Promotional and other offers:<br>
+              <a href="mailto:EcoMovePR@gmail.com">EcoMovePR@gmail.com</a>
+            </address>
+          </div>
+          <div class="footer_col three">
+            <address>
+              Office location:
+              <a
+                href="https://www.google.com/maps?q=53.926136,27.614687"
+                target="_blank"
+                >Tolbuhina street 2, Minsk</a
+              >
+            </address>
+            <p>
+              Opening hours:<br>
+              8:00 - 20:00 <br>
+              Daily.
+            </p>
+          </div>
+          <div class="footer_col four">
+            <span class="social">We’re on social media</span>
+            <div class="wrapper_social-link">
+              <a href="https://web.telegram.org/a/" class="social_link">
+                <img src="img/telegram.svg" alt="">
+              </a>
+              <a href="https://www.instagram.com/" class="social_link">
+                <img src="img/inst.svg" alt="">
+              </a>
+              <a href="https://www.tik_tok.com/" class="social_link">
+                <img src="img/tik_tok.svg" alt="">
+              </a>
+            </div>
+            <span class="rights">© all rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

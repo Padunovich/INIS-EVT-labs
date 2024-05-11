@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMove</title>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_menu">
+          <div class="header_logo">
+            <a href="index.html">
+              <img src="img/logo.png" width="25" height="30" alt="">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#auto">Our Cars</a></li>
+              <li><a href="#tariffs">Tariffs</a></li>
+              <li><a href="shares.html">Shares</a></li>
+              <li><a href="rules.html">Rules</a></li>
+            </ul>
+          </nav>
+          <div class="theme">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="checkbox"
+              onchange="handleChange(this.checked)"
+            >
+            <label for="checkbox" class="checkbox-label"></label>
+            <span>Dark Theme</span>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <input id="menu_toggle" type="checkbox">
+          <label class="menu_btn" for="menu_toggle">
+            <span></span>
+          </label>
+          <div class="menu_box">
+            <a href="index.html" class="header_logotype">
+              <img
+                class="header_logo-img"
+                src="img/logo2.png"
+                alt=""
+              >
+            </a>
+            <ul class="menu_items">
+              <li><a class="menu_item" href="#auto">Our Cars</a></li>
+              <li><a class="menu_item" href="#tariffs">Tariffs</a></li>
+              <li><a class="menu_item" href="shares.html">Shares</a></li>
+              <li><a class="menu_item" href="rules.html">Rules</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="header_banner">
+          <div class="pidor">
+            <h1 class="header_title">
+              <span style="color: #690c91">EcoMove</span> carshering, minute by
+              minute rental car in Minsk
+            </h1>
+            <p class="header_text">
+              Modern green car rental <br>No offices, no managers, no paper
+              contracts
+            </p>
+          </div>
+          <div class="col_banner">
+            <img src="img/banner.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="title" id="pros">
+        <h2>Carshering <span style="color: #690c91">EcoMove</span> is</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="pros">
+        <div class="useful">
+          <img src="img/star3.png" alt="">
+          <span class="useful_title">Available</span>
+          <span class="line"></span>
+          <p class="description">Rent from 1 minute, cheaper taxi</p>
+        </div>
+        <div class="useful">
+          <img src="img/hand.png" alt="">
+          <span class="useful_title">Simple</span>
+          <span class="line"></span>
+          <p class="description">
+            Keys and all the documents are already in the car
+          </p>
+        </div>
+        <div class="useful">
+          <img src="img/fast.png" alt="">
+          <span class="useful_title">Fast</span>
+          <span class="line"></span>
+          <p class="description">No managers, contracts or offices</p>
+        </div>
+        <div class="useful">
+          <img src="img/cool.png" alt="">
+          <span class="useful_title">Convenient</span>
+          <span class="line"></span>
+          <p class="description">
+            Pick up and park your car anywhere in the city
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="useful_div">
+      <div class="container">
+        <div class="wrapper_useful-item">
+          <div class="first_item">
+            <div class="useful_item one">
+              <h1>Like your own car, for rent</h1>
+              <p class="useful_item-descriprion">
+                You’re the only one who controls the car, the music and the
+                climate of the car.
+              </p>
+              <p class="useful_item-descriprion">
+                Take the car for a few minutes, days or days. <br>For
+                charging, washing and parking in the city do not need to pay!
+              </p>
+            </div>
+            <div class="useful_img one">
+              <img src="img/cardesc4.png" alt="">
+            </div>
+          </div>
+
+          <div class="second_item">
+            <div class="useful_item two">
+              <h1>Like a taxi, but cheaper</h1>
+              <p class="useful_item-descriprion">Is the taxi too high?</p>
+              <p class="useful_item-descriprion">
+                We always have a stable price, regardless of car occupancy and
+                weather
+              </p>
+              <p class="useful_item-descriprion">
+                We are cheaper than taxis at least 20-30%
+              </p>
+              <p class="useful_item-descriprion">
+                Don’t listen to taxi drivers' stories and their music
+              </p>
+            </div>
+            <div class="useful_img two">
+              <img src="img/taxi3.png" alt="">
+            </div>
+          </div>
+
+          <div class="third_item">
+            <div class="useful_item three">
+              <h1>Just ride</h1>
+              <p class="useful_item-descriprion">
+                Drive your mother, ride a girl or a boy. Drive yourself, quickly
+                solve all your problems - take the car for just a few minutes or
+                hours.
+              </p>
+              <p class="useful_item-descriprion">
+                Don’t pay for 24 hours, charging and washing - that’s all in the
+                past.
+              </p>
+            </div>
+            <div class="useful_img three">
+              <img src="img/wash1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cars">
+      <div class="container">
+        <div class="title" id="auto">
+          <h2>Our cars</h2>
+        </div>
+
+        <div class="carousel-wrapper">
+          <span id="item-1"></span>
+          <span id="item-2"></span>
+          <span id="item-3"></span>
+          <span id="item-4"></span>
+          <span id="item-5"></span>
+
+          <div class="carousel-item item-1">
+            <h2>Tesla Model X</h2>
+            <a class="arrow arrow-prev" href="#item-5"></a>
+            <a class="arrow arrow-next" href="#item-2"></a>
+          </div>
+
+          <div class="carousel-item item-2">
+            <h2>Tesla Model S</h2>
+            <a class="arrow arrow-prev" href="#item-1"></a>
+            <a class="arrow arrow-next" href="#item-3"></a>
+          </div>
+
+          <div class="carousel-item item-3">
+            <h2>Audi e-tron</h2>
+            <a class="arrow arrow-prev" href="#item-2"></a>
+            <a class="arrow arrow-next" href="#item-4"></a>
+          </div>
+
+          <div class="carousel-item item-4">
+            <h2>Tesla Cybertruck</h2>
+            <a class="arrow arrow-prev" href="#item-3"></a>
+            <a class="arrow arrow-next" href="#item-5"></a>
+          </div>
+
+          <div class="carousel-item item-5">
+            <h2>Tesla Model Y</h2>
+            <a class="arrow arrow-prev" href="#item-4"></a>
+            <a class="arrow arrow-next" href="#item-1"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="title" id="tariffs">
+        <h2>Tariffs</h2>
+      </div>
+      <div class="row_price">
+        <div class="item_price">
+          <div class="price_top" id="price_top1">
+            <span class="price_name">minute-by-minute</span>
+            <span class="price_coast">0.2 - 0.9</span>
+            <span class="price_coast-descriprion">BYN/min</span>
+            <p class="price_description">
+              Best for short trips, less than one hour
+            </p>
+          </div>
+          <div class="price_bottom">
+            <div class="price_event">
+              <span class="event_name">On mileage</span>
+              <span class="event_coast">50 km</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Reservation</span>
+              <span class="event_coast">0 BYN/20min</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Waiting</span>
+              <span class="event_coast">0.4 - 0.9 BYN</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Resale value</span>
+              <span class="event_coast">0.5 BYN/for 1 km</span>
+            </div>
+          </div>
+        </div>
+        <div class="item_price">
+          <div class="price_top" id="price_top2">
+            <span class="price_name">1 hour + 10 km</span>
+            <span class="price_coast">10 - 35</span>
+            <span class="price_coast-descriprion">BYN</span>
+            <p class="price_description">
+              Fare for city trips for a few hours, it is best to use the first
+              acquaintance with the service
+            </p>
+          </div>
+          <div class="price_bottom">
+            <div class="price_event">
+              <span class="event_name">On mileage</span>
+              <span class="event_coast">10 km</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Reservation</span>
+              <span class="event_coast">0 BYN/25min</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Waiting</span>
+              <span class="event_coast">0 BYN</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Resale value</span>
+              <span class="event_coast">0.5 BYN/for 1 km</span>
+            </div>
+          </div>
+        </div>
+        <div class="item_price">
+          <div class="price_top" id="price_top3">
+            <span class="price_name">1 day + 100 km</span>
+            <span class="price_coast">100 - 200</span>
+            <span class="price_coast-descriprion">BYN</span>
+            <p class="price_description">
+              For comfortable car rental for 24 hours, or longer term
+            </p>
+          </div>
+          <div class="price_bottom">
+            <div class="price_event">
+              <span class="event_name">On mileage</span>
+              <span class="event_coast">100 km</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Reservation</span>
+              <span class="event_coast">0 BYN/30min</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Waiting</span>
+              <span class="event_coast">0 BYN</span>
+            </div>
+            <div class="price_event">
+              <span class="event_name">Resale value</span>
+              <span class="event_coast">0.5 BYN/for 1 km</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="pay_parking">
+        <div class="desc">
+          <span>City parking and</span>
+          <span>charging do not need </span>
+          <span>to pay</span>
+        </div>
+        <div class="img_parking container">
+          <img src="img/cardesc1.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.3214193078875!2d27.61220917631954!3d53.926033331192606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf035f408987%3A0x32e0e572194ea137!2z0JHQuNC30L3QtdGBLdGG0LXQvdGC0YAgItCi0LDQudC8Ig!5e0!3m2!1sru!2sby!4v1713255890623!5m2!1sru!2sby"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="map_description">
+          <h1 class="map_title">Office location</h1>
+          <p class="map_text">
+            We are just a 5-minute walk from the Cheluskin Park Metro Station.
+            Public transport stops are located near our office, allowing
+            customers to reach us easily from anywhere in the city.
+          </p>
+          <p>
+            For the convenience of our users, we have equipped a spacious
+            parking space right at the entrance to the office. Here customers
+            can park their own car and use the services of our carpenter.
+          </p>
+          <p>
+            The office operates daily from 8:00 to 20:00, which allows you to
+            serve users at a convenient time for them. Our managers are always
+            happy to advise you on all questions of using our service.
+          </p>
+          <p>
+            Visit us and we will help you to get to your destination quickly and
+            comfortably! We are waiting for you at
+            <a
+              href="https://www.google.com/maps?q=53.926136,27.614687"
+              target="_blank"
+              >Tolbuhina street 2, Minsk</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer_row">
+          <div class="footer_col one">
+            <a href="rules.html">Seniority</a>
+            <a href="rules.html#rule2">Car transmission</a>
+            <a href="rules.html#rule3">Charging</a>
+            <a href="rules.html#rule4">Insurance</a>
+            <a href="rules.html#rule5">Car inspection</a>
+            <a href="rules.html#rule6">SDA and fines</a>
+          </div>
+          <div class="footer_col two">
+            <address>
+              Customer support 24 hours:<br>
+              <a href="tel:+375291234567">+375 (29) 123-45-67</a><br>
+              <a href="tel:+375331234567">+375 (33) 123-45-67</a><br>
+              <a href="mailto:EcoMove@gmail.com">EcoMove@gmail.com</a><br>
+            </address>
+            <address>
+              <br>Promotional and other offers:<br>
+              <a href="mailto:EcoMovePR@gmail.com">EcoMovePR@gmail.com</a>
+            </address>
+          </div>
+          <div class="footer_col three">
+            <address>
+              Office location:
+              <a
+                href="https://www.google.com/maps?q=53.926136,27.614687"
+                target="_blank"
+                >Tolbuhina street 2, Minsk</a
+              >
+            </address>
+            <p>
+              Opening hours:<br>
+              8:00 - 20:00 <br>
+              Daily.
+            </p>
+          </div>
+          <div class="footer_col four">
+            <span class="social">We’re on social media</span>
+            <div class="wrapper_social-link">
+              <a href="https://web.telegram.org/a/" class="social_link">
+                <img src="img/telegram.svg" alt="">
+              </a>
+              <a href="https://www.instagram.com/" class="social_link">
+                <img src="img/inst.svg" alt="">
+              </a>
+              <a href="https://www.tiktok.com/" class="social_link">
+                <img src="img/tik_tok.svg" alt="">
+              </a>
+            </div>
+            <span class="rights">© all rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
