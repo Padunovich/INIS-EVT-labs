@@ -1,0 +1,116 @@
+.wrapper {
+    max-width: 100% !important;
+}
+
+header,
+footer {
+    position: fixed;
+    background-color: pink;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    font-size: 24px;
+    text-align: center;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+.footer a:hover {
+    cursor: default !important;
+}
+
+.main p{
+    font-style: normal !important;
+}
+
+.blockquote {
+    font-style: italic !important;
+    font-weight: normal !important;
+}
+
+article.fifth .blockquote{
+    margin-bottom: 60px;
+}
+
+p.word{
+    position: sticky;
+    display: inline-block;
+    top: 45px;
+    color: white;
+    padding: 8px;
+}
+
+.word.first{
+    background-color: red;
+}
+
+.word.second{
+    background-color: orange;
+    margin-left: 65px;
+}
+
+.word.third{
+    background-color: yellow;
+    color: black;
+    margin-left: 94px;
+}
+
+.word.fourth {
+    background-color: green;
+    margin-left: 148px;
+}
+
+.word.fifth {
+    background-color: blue;
+    margin-left: 226px;
+}
+
+.main article{
+    text-align: center;
+}
+
+.article.first>p:nth-of-type(3)::first-letter,
+.article.second>p:nth-of-type(2)::first-letter,
+.article.third>p:nth-of-type(2)::first-letter,
+.article.fourth>p:nth-of-type(2)::first-letter,
+.article.fifth>p:nth-of-type(4)::first-letter{
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+img{
+    height: 150px !important;
+    margin: 10px;
+}
+
+.article.first img,
+.article.third img,
+.article.fifth img{
+    float: left;
+}
+
+.article.second img,
+.article.fourth img{
+    float: right;
+}
+
+.article.second img{
+    height: 100px !important;
+}
+
+
+
