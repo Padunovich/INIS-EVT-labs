@@ -382,23 +382,23 @@ header {
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url("/img/car1.png") center center / contain no-repeat;
+  background: url("/Курсовая_ЭВТ/img/car1.png") center center / contain no-repeat;
 }
 
 .item-2 {
-  background: url("/img/car2.png") center center / contain no-repeat;
+  background: url("/Курсовая_ЭВТ/img/car2.png") center center / contain no-repeat;
 }
 
 .item-3 {
-  background: url("/img/car3.png") center center / contain no-repeat;
+  background: url("/Курсовая_ЭВТ/img/car3.png") center center / contain no-repeat;
 }
 
 .item-4 {
-  background: url("/img/car4.png") center center / contain no-repeat;
+  background: url("/Курсовая_ЭВТ/img/car4.png") center center / contain no-repeat;
 }
 
 .item-5 {
-  background: url("/img/car5555.webp") center center / contain
+  background: url("/Курсовая_ЭВТ/img/car5555.webp") center center / contain
     no-repeat;
 }
 
