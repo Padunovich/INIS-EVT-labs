@@ -18,7 +18,6 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
   font-family: "Poppins", sans-serif;
   color: var(--var-body-fc);
   background: var(--var-body-bg);
