@@ -1,14 +1,8 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins-Regular"),
-    url(/Курсовая_ЭВТ/fonts/Poppins/Poppins-Regular.ttf);
+    url(INIS-EVT-labs/EVT/Курсовая_ЭВТ/fonts/Poppins/Poppins-Regular.ttf);
 }
-
-@font-face {
-  font-family: "Lato";
-  src: local("Lato-Regular"), url(/Курсовая_ЭВТ/fonts/Lato/Lato-Regular.ttf);
-}
-
 :root {
   --var-body-bg: #f1f1f1;
   --var-body-fc: black;
@@ -382,23 +376,23 @@ header {
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url("/Курсовая_ЭВТ/img/car1.png") center center / contain no-repeat;
+  background: url("INIS-EVT-labs/EVT/Курсовая_ЭВТ/img/car1.png") center center / contain no-repeat;
 }
 
 .item-2 {
-  background: url("/Курсовая_ЭВТ/img/car2.png") center center / contain no-repeat;
+  background: url("INIS-EVT-labs/EVT/Курсовая_ЭВТ/img/car2.png") center center / contain no-repeat;
 }
 
 .item-3 {
-  background: url("/Курсовая_ЭВТ/img/car3.png") center center / contain no-repeat;
+  background: url("INIS-EVT-labs/EVT/Курсовая_ЭВТ/img/car3.png") center center / contain no-repeat;
 }
 
 .item-4 {
-  background: url("/Курсовая_ЭВТ/img/car4.png") center center / contain no-repeat;
+  background: url("INIS-EVT-labs/EVT/Курсовая_ЭВТ/img/car4.png") center center / contain no-repeat;
 }
 
 .item-5 {
-  background: url("/Курсовая_ЭВТ/img/car5555.webp") center center / contain
+  background: url("INIS-EVT-labs/EVT/Курсовая_ЭВТ/img/car5555.webp") center center / contain
     no-repeat;
 }
 
