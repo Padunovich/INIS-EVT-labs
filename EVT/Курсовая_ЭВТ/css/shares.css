@@ -1,14 +1,8 @@
 @font-face {
   font-family: "Poppins";
   src: local("Poppins-Regular"),
-    url(/Курсовая_ЭВТ/fonts/Poppins/Poppins-Regular.ttf);
+    url(INIS-EVT-labs/EVT/Курсовая_ЭВТ/fonts/Poppins/Poppins-Regular.ttf);
 }
-
-@font-face {
-  font-family: "Lato";
-  src: local("Lato-Regular"), url(/Курсовая_ЭВТ/fonts/Lato/Lato-Regular.ttf);
-}
-
 :root {
   --var-body-bg: #f1f1f1;
   --var-body-fc: black;
